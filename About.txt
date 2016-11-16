@@ -1,5 +1,6 @@
-### Welcome to your project!
+# What even is this?
+Well, it's literally machine learning made easier! By that, I mean *much* easier. Normally, machine learning enthusiasts in both academia and industry have completed hundreds or thousands of hours refining their skills in calculus, statistics, and algorithms. But, we don't all have the time to do such things. In this book, I'll condense years of knowledge into a few hundred pages.
 
-- Brush up on Markdown: http://daringfireball.net/projects/markdown/basics
-- Learn about Penflip: [penflip.com/help](http://www.penflip.com/help)
-- Talk to a person: support@penflip.com
+By the end of this book, you'll have learned all of the knowledge necessary to become a machine learning enthusiast. This book doesn't guarantee you a job of any type. And, while you will have the knowledge needed to work in the field, you won't even be considered for a job until you go out and build something using it.
+
+In each chapter of this book, you'll first learn a new machine learning concept, and, after, you'll get a brief yet informative overview of the underlying math related to the concept. Then, at the end of the chapter I'll bring together the math and machine learning and have you solve a problem using the machine learning concept of the chapter.
