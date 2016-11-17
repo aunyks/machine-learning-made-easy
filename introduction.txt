@@ -1,3 +1,27 @@
-#An Example Chapter
+# Simple Statistics
+Statistics is the foundation of modern machine learning. People who are knowledgeable of statistics can not only model complex relationships between two or more variables but also perform calculations that minimize error in conclusions drawn from their models.
 
-Write here...
+Although we will learn more difficult statistical concepts later in the text, we must first start off with simpler ones. As a matter of fact, these might be the easiest concepts to grasp in this entire book. But don't let that scare you! Think of high school level statistics; the main ideas are mean, median, and mode. I'm sure you already know them, but we'll still review them just in case. To refresh your memory, the mean of a set of values is the average of those values, or the sum of the values divided by how many values there are. The median is the middle of the values, or the least value plus half of the distance between the greatest and least values. And, the mode is the value that is repeated most often. Although rudimentary, these ideas are essential in understanding high level machine learning concepts.
+
+Calculating the mean, median, and mode is very simple. Before we perform any calculation, we need to know what data we need and how it should be formatted. With mean, median, and mode, we prefer having the elements of our dataset (the numbers) be in ascending order (from least to greatest). So, if we're given a set of numbers {3, 1, 5, 0}, we want to rearrange these numbers so that they appear {0, 1, 3, 5}.
+
+So, let's get into it. Here are the empirical equations for these three values. Given a set of numbers, X, where X = {0, 1, 2, 2, 3, 4},
+
+Mean (denoted by the greek letter "mu"):
+u = bigSig(X) / len(X)
+
+Median:
+Median = least(X) + ( (greatest(X) - least(X)) / 2 )
+
+Mode:
+Mode = most(X)
+
+But, what do those equations mean? Let's break them down, so we can better understand them.
+
+Mean has two simple components. The value above the division line, the numerator, is the sum of all of the values in X. The value below the division line, the denominator, is the amount of values in X. So, the mean of X is the sum of all of the values, 12, divided by the length of X, 6. So, the mean of X, (mu sub-X), is 2!
+
+Median also has two components. Keep in mind that the median of X isn't always a value of X. It's the smallest value of X plus the half of the distance between the biggest value and smallest value. So, it's the greatest value of X, 4, minus the least value of X, 0, divided by 2. That value is 2. Add this to the least value of X, 0, and the median of X is 2!
+
+Mode is even simpler than its counterparts. It's literally the whatever value appears the most in X. Here, we see that 0, 1, 3, and 4 appear once in X, but 2 appears twice in X. 2 appears most in X, so 2 is the mode!
+
+In that example, it was just a coincidence that all three of the values are 2, but we'll see examples that aren't as easy.
