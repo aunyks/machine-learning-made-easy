@@ -1,14 +1,14 @@
 # Simple Statistics
 Statistics is the foundation of modern machine learning. People who are knowledgeable of statistics can not only model complex relationships between two or more variables but also perform calculations that minimize error in conclusions drawn from their models.
 
-Although we will learn more difficult statistical concepts later in the text, we must first start off with simpler ones. As a matter of fact, these might be the easiest concepts to grasp in this entire book. But don't let that scare you! Think of high school level statistics; the main ideas are mean, median, and mode. I'm sure you already know them, but we'll still review them just in case. To refresh your memory, the mean of a set of values is the average of those values, or the sum of the values divided by how many values there are. The median is the middle of the values, or the least value plus half of the distance between the greatest and least values. And, the mode is the value that is repeated most often. Although rudimentary, these ideas are essential in understanding high level machine learning concepts.
+Although we will learn more difficult statistical concepts later in the text, we must first start off with simpler ones. As a matter of fact, these might be the easiest concepts to grasp in this entire book. But don't let that scare you! Think of high school level statistics; the main ideas are mean, median, and mode. I'm sure you already know them, but we'll review them just in case. To refresh your memory, the mean of a set of values is the average of those values, or the sum of the values divided by how many values there are. The median is the middle of the values. And, the mode is the value that is repeated most often. Although rudimentary, these ideas are essential in understanding high level machine learning concepts.
 
 Calculating the mean, median, and mode is very simple. Before we perform any calculation, we need to know what data we need and how it should be formatted. With mean, median, and mode, we prefer having the elements of our dataset (the numbers) be in ascending order (from least to greatest). So, if we're given a set of numbers {3, 1, 5, 0}, we want to rearrange these numbers so that they appear {0, 1, 3, 5}.
 
 So, let's get into it. Here are the empirical equations for these three values. Given a set of numbers, X, where X = {0, 1, 2, 2, 3, 4},
 
 Mean (denoted by the greek letter "mu"):
-u = bigSig(X) / len(X)
+\(mu = ax^2+bx+c)
 
 Median:
 Median = least(X) + ( (greatest(X) - least(X)) / 2 )
