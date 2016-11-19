@@ -30,4 +30,4 @@ In that example, it was just a coincidence that all three of the values are 2, b
 
 ## Bring It All Together
 
-Now that we know what mean, median, and mode are, we know our simple statistics concepts!
+Now that we know what mean, median, and mode are, we know our simple statistics concepts! Let's solve a real world problem using what we just learned.
