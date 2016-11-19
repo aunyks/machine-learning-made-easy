@@ -90,7 +90,7 @@ So, $140 is our mode.
 
 \(Mo_Y = 140\)
 
-**The mode will always be a value in the dataset.**
+**The mode doesn't have to be a value in the dataset**. But, it is in this case.
 
 
 
