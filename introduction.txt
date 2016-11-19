@@ -27,3 +27,7 @@ Median also has two components. Keep in mind that the median of X isn't always a
 Mode is even simpler than its counterparts. It's literally the whatever value appears the most in X. Here, we see that 0, 1, 3, and 4 appear once in X, but 2 appears twice in X. 2 appears most in X, so 2 is the mode, \(Mo_X\)!
 
 In that example, it was just a coincidence that all three of the values are 2, but we'll see examples that aren't as easy.
+
+## Bring It All Together
+
+Now that we know what mean, median, and mode are, we know our simple statistics concepts!
