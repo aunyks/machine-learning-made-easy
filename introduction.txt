@@ -16,7 +16,8 @@ Median:
 \(\huge{ \widetilde{x} = X_{ \frac{len(X)+1}{2} } }\)
 
 Mode:
-## Mo = most(X)
+
+\(\huge{Mo_Y = most(Y)}\)
 
 But, what do those equations mean? Let's break them down, so we can better understand them.
 
@@ -31,3 +32,68 @@ In that example, it was just a coincidence that all three of the values are 2, b
 ## Bring It All Together
 
 Now that we know what mean, median, and mode are, we know our simple statistics concepts! Let's solve a real world problem using what we just learned.
+
+Say you have six friends who work at the same McDonald's restaurant. Their salaries are $140, $220, $90, $180, $140, and $200. This is our dataset, now let's find the mean, median, and mode for their salaries. To make things a bit simpler, we'll call the set of values Y.
+
+Let's find the mean, \(\large{\mu_Y}\), first. 
+We recall that the mean is \(\large{\mu_Y = \frac{ \sum_{i=0}^{len(Y)}Y_i } { len(Y) } } \).
+
+The numerator is the sum of all of the salaries, which is 140+220+90+180+140+200, or 970. So now we have:
+
+\(\large{\mu_Y = \frac{ 970 } { len(Y) } } \)
+
+The denominator is the length of Y, which is 6 because we have six friends and six salaries:
+
+\(\large{\mu_Y = \frac{ 970 } { 6 } } \)
+
+And with a calculator and some rounding:
+
+\(\large{\mu_Y = 161.\bar{6}} \)
+
+\(\large{\mu_Y = $161.67} \)
+
+The mean of the salaries is $161.67. Also, keep in mind that **the mean doesn't have to be a value in the dataset**.
+
+
+
+For the median, \(\large{ \widetilde{x}_Y}\), we need to put our data in ascending order. So, Y becomes { 90, 140, 140, 180, 200, 220 }. If we look at Y as a list of numbers we see,
+
+90 140 140 180 200 220
+
+There's an even number of values in Y, therefore the midpoint isn't one number.
+
+90 140 140 **I** 180 200 220
+
+So, we find the mean of the two middle numbers.
+
+90 140 **140 180** 200 220
+
+In this case, we find the sum of 140 and 180 then divide by 2 since they're only two numbers.
+
+\(\large{ \widetilde{x}_Y =\frac{ 140 + 180 } { 2 } }\)
+
+\(\large{ \widetilde{x}_Y =$160 }\)
+
+The median value is $160. As you can see, **the median also doesn't have to be a value in the dataset**.
+
+
+
+Finally the mode, \(Mo_Y\) this will almost always be the easiest value to find. Let's look at our values.
+
+90 140 140 180 200 220
+
+If we look at how many times each value appears, we can see that 90, 180, 200, and 220 each appear once in Y, but 140 appears twice.
+
+90 **140 140** 180 200 220
+
+So, $140 is our mode.
+
+\(Mo_Y = 140\)
+
+**The mode will always be a value in the dataset.**
+
+
+
+Congratulations! You've finished this chapter!
+
+
