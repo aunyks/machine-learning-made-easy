@@ -1,2 +1,19 @@
 # Terminology
 This is a list of math symbols and expressions. Here, I'll tell you how to read them and what they mean.
+
+- **Data**: The information given in a certain situation
+
+- **Dataset**: A subset of the data
+
+- **Datum:** An individual element of the data or dataset
+
+- **Numerator** \(\large{\frac{\textbf{x}}{y}}\): The value on top of a fraction. In  \(\large{\frac{x}{y}}\), \(\large{x}\) is the numerator
+
+- **Denominator** \(\large{\frac{x}{\textbf{y}}}\): The value in the bottom of the fraction. In \(\large{\frac{x}{y}}\), \(\large{y}\) is the denominator
+
+- **Big Sigma** \(\large{ \sum_{i=1}^{5}i }\): Otherwise known as summation notation, this is simply a way to signify adding numbers. The expression at the bottom of the sigma is where a starting value is assigned to a variable. The expression to the right of the sigma is what is added. The number at the top of the sigma is the value where the variable at the bottom of the sigma stops. In the example, \(\large{i}\), is given a starting value of 1. The summation to the right will stop when i = 5. And, the expression to the right is simply \(\large{i}\). So this example can be rewritten as 1+2+3+4+5. Therefore, \(\large{ \sum_{i=1}^{5}i }\) = 1+2+3+4+5 = 15
+
+- **Sequence** { \(\large{X_1, X_2, X_3, X_{...}}\) }: A list of values. Elements of the sequence are usually referenced by their place in the sequence, or index. Given a sequence \(\large{Y}\) with values { \(\large{4, 8, 12, 16}\)}, each value can be reference by an index and the length can be denoted \(\large{len(Y)}\). { \(\large{4, 8, 12, 16}\)} = { \(\large{Y_1, Y_2, Y_3, Y_4}\)}. Therefore, \(\large{Y_1 = 4, Y_2 = 8, Y_3 = 12,}\), \(\large{Y_4 = 16}\), and \(\large{len(Y) = 4}\) because there are four elements in \(\large{Y}\).
+
+- **Series** \(\large{ \sum_{i=1}^{len(Y)}Y_i }\): The sum of all of the values in a sequence. Given a sequence \(\large{Y = \{4, 8, 12, 16\}}\), the series of \(\large{Y}\) is \(\large{40}\), because \(\large{ \sum_{i=1}^{len(Y)}Y_i = Y_1+Y_2+Y_3+Y_4 = 4+8+12+16 = \underline{40}}\).
+
