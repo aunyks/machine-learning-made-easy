@@ -1,5 +1,5 @@
-About.txt
 Terminology.txt
+About.txt
 introduction.txt
 chapter1.txt
 chapter2.txt
