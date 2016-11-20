@@ -1,4 +1,4 @@
-# Simple Statistics
+# Chapter 1: Simple Statistics
 Statistics is the foundation of modern machine learning. People who are knowledgeable of statistics can not only model complex relationships between two or more variables but also perform calculations that minimize error in conclusions drawn from their models.
 
 Although we will learn more difficult statistical concepts later in the text, we must first start off with simpler ones. As a matter of fact, these might be the easiest concepts to grasp in this entire book. But don't let that scare you! Think of high school level statistics; the main ideas are mean, median, and mode. I'm sure you already know them, but we'll review them just in case. To refresh your memory, the mean of a set of values is the average of those values, or the sum of the values divided by how many values there are. The median is the middle of the values. And, the mode is the value that is repeated most often. Although rudimentary, these ideas are essential in understanding high level machine learning concepts.
@@ -35,7 +35,7 @@ Now that we know what mean, median, and mode are, we know our simple statistics 
 
 Say you have six friends who work at the same McDonald's restaurant. Their salaries are $140, $220, $90, $180, $140, and $200. This is our dataset, now let's find the mean, median, and mode for their salaries. To make things a bit simpler, we'll call the set of values Y.
 
-Let's find the mean, \(\large{\mu_Y}\), first. 
+Let's find the mean, \(\large{\mu_Y}\), first.
 We recall that the mean is \(\large{\mu_Y = \frac{ \sum_{i=0}^{len(Y)}Y_i } { len(Y) } } \).
 
 The numerator is the sum of all of the salaries, which is 140+220+90+180+140+200, or 970. So now we have:
@@ -95,5 +95,3 @@ So, $140 is our mode.
 
 
 Congratulations! You've finished this chapter!
-
-

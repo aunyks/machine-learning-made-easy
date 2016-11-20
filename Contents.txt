@@ -1,6 +1,5 @@
 Terminology.txt
-About.txt
-introduction.txt
-chapter1.txt
-chapter2.txt
-chapter3.txt
+Preface.txt
+SimpleStatistics.txt
+ClassvRegress.txt
+LRegression.txt
