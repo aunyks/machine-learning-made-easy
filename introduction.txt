@@ -21,9 +21,9 @@ Mode:
 
 But, what do those equations mean? Let's break them down, so we can better understand them.
 
-Mean has two simple components. The value above the division line, the numerator, is the sum of all of the values in X. The value below the division line, the denominator, is the amount of values in X. So, the mean of X is the sum of all of the values, 12, divided by the length of X, 6. So, the mean of X, \(\large{\mu_X}\), is 2!
+Mean has two simple components. The numerator is the series of X, and the denominator is the length of X. So, the mean of X is the sum of all of its values, 12, divided by the length of X, 6. So, the mean of X, \(\large{\mu_X}\), is 2!
 
-Median also has two components. Keep in mind that the median of X isn't always a value of X. It's the smallest value of X plus the half of the distance between the biggest value and smallest value. So, it's the greatest value of X, 4, minus the least value of X, 0, divided by 2. That value is 2. Add this to the least value of X, 0, and the median of X, \( \large{\tilde{x_X}} \), is 2!
+Median is the middle of X. It's the element of X that has the index of \(\large{ \frac{len(X)+1}{2} }\). The catch with that is: if the length is even, then the median is the mean of the two middle numbers (we'll go more in depth on that later). So, X is of even length, and the two middle numbers are 2 and 2. Therefore, the median is \(\large{\frac{2+2}{2}}\), or 2!
 
 Mode is even simpler than its counterparts. It's literally the whatever value appears the most in X. Here, we see that 0, 1, 3, and 4 appear once in X, but 2 appears twice in X. 2 appears most in X, so 2 is the mode, \(Mo_X\)!
 
