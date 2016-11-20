@@ -1,6 +1,6 @@
-Terminology.txt
 About.txt
-Introduction.txt
+Terminology.txt
+introduction.txt
 chapter1.txt
 chapter2.txt
 chapter3.txt
